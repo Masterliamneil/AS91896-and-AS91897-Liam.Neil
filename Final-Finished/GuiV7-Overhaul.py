@@ -100,7 +100,7 @@ def resetfunction():
     label = gui.Label(root, text="What would you like to calculate?", font=("Helvetica", 25))
     label.pack(pady=20)
 
-def submit(event=None): #we may need a seccond submit function for 2 number equations.
+def submit(event=None):
     ##globals all data to keep it between functions
     global num1, num2, num3, entry, placeholder, label2, label, ButtonInput, question, title, awnser, visual, current_visual, Unit
     ##gets number for comparison
